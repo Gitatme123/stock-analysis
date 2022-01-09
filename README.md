@@ -11,27 +11,26 @@ The reason we are going to refactor the code is because this process creates a m
 
 ## **Results**
 
-### Deliverable 1
+### Deliverable 1 - Explanation of code and what it is doing for us
 
->Create tickerIndex
+> 1. The tickerIndex is set equal to zero before looping over the rows.
 
->Create 3 output arrays
+> 2. Arrays are created for tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices.
 
->Create for loop to initialize tickerVolumes to 0
+> 3. The tickerIndex is used to access the stock ticker index for the tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices arrays.
 
->Create a for loop that loops over all the rows in the same spreadsheet
+> 4. The script loops through stock data, reading and storing all of the following values from each row: tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices.
 
->Inside for loop in 2b, write script that increases current tickerVolumes and adds the ticker volume for the current stock ticker, using the variable tickerIndex as the index.
+> 5. Code for formatting the cells in the spreadsheet is working.
 
->Write an if-then statement to check if current row is first row
+> 6. There are comments to explain the purpose of the code.
 
->Write an if-then statement to check if the current row is the last row
+> 7. The outputs for the 2017 and 2018 stock analyses in the VBA_Challenge.xlsm workbook match the outputs from the AllStockAnalysis in the module.
 
->Write script that increases the tickerIndex if the next row's ticker doesn't match previous row
+> 8. The pop-up messages showing the elapsed run time for the script are saved as VBA_Challenge_2017.png and VBA_Challenge_2018.png.
 
->Use a for loop to loop through our arrays: tickers, tickerVolumes, tickerStartingPrices and tickerEndingPrices
+### Analysis
 
->Run the stock analysis and confirm outputs for 2017 and 2018 match our results from the AllStockAnalysis, to output the "Ticker, Total Daily Volume and Return" columns.
 
 
 ## **Summary**
