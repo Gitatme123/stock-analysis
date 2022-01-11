@@ -19,25 +19,25 @@ The reason we are going to refactor the code is because this process creates a m
 > The code we were told to use is not the code that I put together for my previous exercise. The code we were told to use caused more confusion than good due to the comments using different syntax to explain what was needed, or just clearly stating different requirements.
 
 > 1. The tickerIndex is set equal to zero before looping over the rows.
-/Users/davidwiers/Desktop/Screen Shot 2022-01-10 at 1.41.20 PM.png
+
 > 2. Arrays are created for tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices.
-/Users/davidwiers/Desktop/Screen Shot 2022-01-10 at 1.44.21 PM.png
+
 > 3. The tickerIndex is used to access the stock ticker index for the tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices arrays.
-/Users/davidwiers/Desktop/Screen Shot 2022-01-10 at 1.41.58 PM.png
+
 > 4. The script loops through stock data, reading and storing all of the following values from each row: tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices.
-/Users/davidwiers/Desktop/Screen Shot 2022-01-10 at 1.42.06 PM.png
+
 > 5. Code for formatting the cells in the spreadsheet is working.
-/var/folders/ty/xt16j9x96x1ddw2r4j2jrzf00000gn/T/TemporaryItems/NSIRD_screencaptureui_QmcheQ/Screen Shot 2022-01-10 at 1.42.38 PM.png
+
 > 6. There are comments to explain the purpose of the code.
-/var/folders/ty/xt16j9x96x1ddw2r4j2jrzf00000gn/T/TemporaryItems/NSIRD_screencaptureui_l1WQdv/Screen Shot 2022-01-10 at 1.45.03 PM.png
+
 > 7. The outputs for the 2017 and 2018 stock analyses in the VBA_Challenge.xlsm workbook match the outputs from the AllStockAnalysis in the module.
-/var/folders/ty/xt16j9x96x1ddw2r4j2jrzf00000gn/T/TemporaryItems/NSIRD_screencaptureui_5Ci8AV/Screen Shot 2022-01-10 at 1.45.38 PM.png
-/var/folders/ty/xt16j9x96x1ddw2r4j2jrzf00000gn/T/TemporaryItems/NSIRD_screencaptureui_cVBoHI/Screen Shot 2022-01-10 at 1.46.06 PM.png
+
 > 8. The pop-up messages showing the elapsed run time for the script are saved as VBA_Challenge_2017.png and VBA_Challenge_2018.png.
-/var/folders/ty/xt16j9x96x1ddw2r4j2jrzf00000gn/T/TemporaryItems/NSIRD_screencaptureui_DSg9XR/Screen Shot 2022-01-10 at 1.46.41 PM.png
 
 ### Analysis
--The script does not take into account that there could be more than 12 tickers in the data in 2017 or 2018. Our script does not take that into account and is not able to pull in another ticker if one exists in the list due to us assigning a constant to our arrays.
+a. The script does not take into account that there could be more than 12 tickers in the data in 2017 or 2018. Our script does not take that into account and is not able to pull in another ticker if one exists in the list due to us assigning a constant to our arrays.
+b. The script
+c. The script did
 
 
 ## **Summary**
