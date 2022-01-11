@@ -19,6 +19,7 @@ The reason we are going to refactor the code is because this process creates a m
 > The code we were told to use is not the code that I put together for my previous exercise. The code we were told to use caused more confusion than good due to the comments using different syntax to explain what was needed, or just clearly stating different requirements.
 
 > 1. The tickerIndex is set equal to zero before looping over the rows.
+<img width="794" alt="Screen Shot 2022-01-10 at 1 41 20 PM" src="https://user-images.githubusercontent.com/95602006/148866628-5a7dc63e-6f77-4b93-af11-f186d1ead54f.png">
 
 > 2. Arrays are created for tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices.
 
