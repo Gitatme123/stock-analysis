@@ -3,12 +3,12 @@
 ## **Overview of Project**
 
 
-In this project, we are building off of code we put together that provided our friend Steve with a worksheet that enabled him with the click of a button, to analyze a list of 12 tickers for either 2017 or 2018. Steve was not content with his findings and has asked us to expand our dataset to include the entire stock market over the last few years. In theory, we could not expect Steve to use this same code to analyze thousands of tickers because it could run very slowly and inefficiently. There is a better way!
+In this project, we are building off of code we put together for our good friend Steve. The code provided him with a worksheet that enabled him with the click of a button to analyze data from 12 stock tickers from either 2017 or 2018. Steve loved the file, but was not content with his findings and has asked us to expand our dataset to include the entire stock market over the last few years. In theory, we could not expect Steve to use this same code to analyze thousands of tickers because it could take forever to run. There must be a better way!
 
 ### Purpose
-In this project we are going to update the previous script we wrote for Steve using refactoring. We want to know for certain if this new method works more efficiently so we are going to calculate the time it takes for our script to output the analysis.
+In this project we are going to update the previous script we wrote for Steve using refactoring. We want to know for certain if this new method works more efficiently. Therefore we will add a feature that calculates the time it takes for our script to output the analysis.
 
-The reason we are going to refactor the code is because this process creates a more efficient script, taking fewer steps, using less memory or improving the logic of the code to make it easier for the future users to use.
+The reason we are going to refactor the code is because the refactoring process creates a more efficient script, takes fewer steps, uses less memory or improves the logic of the code to make it easier for the future users to use or understand.
 
 
 
@@ -16,7 +16,7 @@ The reason we are going to refactor the code is because this process creates a m
 
 ### Deliverable 1 - Explanation of code and what it is doing for us
 
-> The code we were told to use is not the code that I put together for my previous exercise. The code we were told to use caused more confusion than good due to the comments using different syntax to explain what was needed, or just clearly stating different requirements.
+> The code we were told to use is not the code that I put together for my previous exercise. The code we were told to use caused more confusion than good due to the comments using different syntax to explain what was needed, or just clearly stating different requirements. That being said I was able to piece everything together to achieve a more efficient run time. The details of my code are included below!
 
 > 1. The tickerIndex is set equal to zero before looping over the rows.
 <img width="794" alt="Screen Shot 2022-01-10 at 1 41 20 PM" src="https://user-images.githubusercontent.com/95602006/148866628-5a7dc63e-6f77-4b93-af11-f186d1ead54f.png">
