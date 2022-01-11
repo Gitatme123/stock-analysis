@@ -36,7 +36,7 @@ The reason we are going to refactor the code is because this process creates a m
 
 ### Analysis
 #### a. The script does not take into account that there could be more than 12 tickers in the data in 2017 or 2018. Our script does not take that into account and is not able to pull in another ticker if one exists in the list due to us assigning a constant to our arrays.
-#### b. The script
+#### b. The script ran significantly quicker, around 300% which could provide a huge advantage when dealing with massive amounts of data and a ton of potential tickers.
 #### c. The script did
 
 
@@ -44,17 +44,17 @@ The reason we are going to refactor the code is because this process creates a m
 
 ### 1. What are the advantages or disadvantages of using refactoring code?
 The advantages of using refactored code are that it:
-- improves the design of the code
-- makes the code easier to understand
-- allows you to find bugs
-- enables you to write code more quickly
-> Source - https://methodpoet.com/benefits-of-refactoring/
+- improves the design of the code.
+- makes the code easier to understand.
+- allows you to find bugs.
+- enables you to write code more quickly.
+>- Source - https://methodpoet.com/benefits-of-refactoring/
 
 The disadvantages of using refactored code are that:
 - can promote using poor or sloppy code at first because they know that the code will be refactored by themselves or someone else in the future.
 - the output is still be the same as before you refactored, therefore resources (time & money for example) could be wasted if refactoring creates more work the refactored code is worth.
 - your code could be written in different languages or written in outdated syntax which would make any attempt for a successful refactoring impossible.
-> Source - https://rotate.cc/should-you-refactor-or-rewrite-your-code/
+>- Source - https://rotate.cc/should-you-refactor-or-rewrite-your-code/
 
 ### 2. How do these pros and cons apply to refactoring the original VBA script?
 ##### Pros
