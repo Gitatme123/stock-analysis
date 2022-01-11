@@ -22,16 +22,22 @@ The reason we are going to refactor the code is because this process creates a m
 <img width="794" alt="Screen Shot 2022-01-10 at 1 41 20 PM" src="https://user-images.githubusercontent.com/95602006/148866628-5a7dc63e-6f77-4b93-af11-f186d1ead54f.png">
 
 > 2. Arrays are created for tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices.
+<img width="752" alt="Screen Shot 2022-01-10 at 1 41 42 PM" src="https://user-images.githubusercontent.com/95602006/148866762-e0259e47-e8ad-46fd-8fc8-b0f3a130659c.png">
 
 > 3. The tickerIndex is used to access the stock ticker index for the tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices arrays.
+<img width="877" alt="Screen Shot 2022-01-10 at 1 41 58 PM" src="https://user-images.githubusercontent.com/95602006/148866831-85d9374b-f74a-4a57-b31e-960b8bdcf875.png">
 
 > 4. The script loops through stock data, reading and storing all of the following values from each row: tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices.
+<img width="933" alt="Screen Shot 2022-01-10 at 1 42 06 PM" src="https://user-images.githubusercontent.com/95602006/148866856-25a1702b-239e-43e7-962a-7e443e0c1359.png">
 
 > 5. Code for formatting the cells in the spreadsheet is working.
 
 > 6. There are comments to explain the purpose of the code.
+<img width="736" alt="Screen Shot 2022-01-10 at 7 51 02 PM" src="https://user-images.githubusercontent.com/95602006/148867550-33a58247-6f19-4c19-98ab-261772bcc3c6.png">
 
 > 7. The outputs for the 2017 and 2018 stock analyses in the VBA_Challenge.xlsm workbook match the outputs from the AllStockAnalysis in the module.
+<img width="249" alt="Screen Shot 2022-01-10 at 7 50 15 PM" src="https://user-images.githubusercontent.com/95602006/148867567-6316900d-31e8-44a8-b740-ff3f5451f9a2.png">
+<img width="233" alt="Screen Shot 2022-01-10 at 7 50 36 PM" src="https://user-images.githubusercontent.com/95602006/148867576-f795a8c4-a4a8-4ae7-932d-1de1cba23e21.png">
 
 > 8. The pop-up messages showing the elapsed run time for the script are saved as VBA_Challenge_2017.png and VBA_Challenge_2018.png.
 
