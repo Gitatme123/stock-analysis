@@ -31,6 +31,7 @@ The reason we are going to refactor the code is because this process creates a m
 <img width="933" alt="Screen Shot 2022-01-10 at 1 42 06 PM" src="https://user-images.githubusercontent.com/95602006/148866856-25a1702b-239e-43e7-962a-7e443e0c1359.png">
 
 > 5. Code for formatting the cells in the spreadsheet is working.
+-See item number 7 for output format png
 
 > 6. There are comments to explain the purpose of the code.
 <img width="736" alt="Screen Shot 2022-01-10 at 7 51 02 PM" src="https://user-images.githubusercontent.com/95602006/148867550-33a58247-6f19-4c19-98ab-261772bcc3c6.png">
