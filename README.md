@@ -73,6 +73,6 @@ The disadvantages of using refactored code are that:
 - I don't see any other benefits considering the script completes a simple task with only a small amount of data. I would have to update the script if I wanted to include any other tickers in our analysis and update the formatting code.
 - I had to seek out resources to gain a good enough understanding of the topic to complete the challenge, major learning pro!
 
-##### The cons of refactoring the original VBA code are that:
+##### Cons
 - It took a lot of time to refactor and there is no financial benefit to Steve or myself for creating the refactored code.
 - If there is poor documentation then the script is difficult to refactor. The notes from the vba file I downloaded for the challenge were not helpful and did not follow the challenges instructions verbatim.
