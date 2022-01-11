@@ -45,11 +45,11 @@ The reason we are going to refactor the code is because the refactoring process 
 
 ### Analysis
 
-####a. The script does not take into account that there could be more than 12 tickers in the data in 2017 or 2018. Our script does not take that into account and is not able to pull in another ticker if one exists in the list due to us assigning a constant to our arrays.
-####b. The script ran significantly quicker, it required 300% less time - which could provide an advantage if there is a vast amount of data being analyzed. 
-####c. The script does not create actions that need to be completed within a small time frame and therefore does not add much value by being efficient. I'd imagine Steve would be okay if the script took up to 10 seconds, as long as we added a cool loading graphic that would convince Steve the computer and script are working very hard to return his analysis!
-####d. The script did
-
+a. The script does not take into account that there could be more than 12 tickers in the data in 2017 or 2018. Our script does not take that into account and is not able to pull in another ticker if one exists in the list due to us assigning a constant to our arrays.
+b. The script ran significantly quicker, it required 300% less time - which could provide an advantage if there is a vast amount of data being analyzed. 
+c. The script does not create actions that need to be completed within a small time frame and therefore does not add much value by being efficient. I'd imagine Steve would be okay if the script took up to 10 seconds, as long as we added a cool loading graphic that would convince Steve the computer and script are working very hard to return his analysis!
+d. I still don't think this is enough information for Steve to make solid picks.  A tickers return for any fixed window of time can be misleading. There are quite a few more stats I would need to provide Steve in order for him to confidently pick some winning tickers. 52 wk high vs 52 wk low for example. 
+e. We also don't really know what Steve is looking for. If his parameters for a tickers success are the tickers total daily volume and return, then we have succeeded. Does he want small cap or large cap, dividend paying or not? I have many questions for Steve in order to complete this analysis for him.
 
 ## **Summary**
 
