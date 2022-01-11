@@ -55,13 +55,13 @@ The advantages of using refactored code are that it:
 - makes the code easier to understand.
 - allows you to find bugs.
 - enables you to write code more quickly.
->- Source - https://methodpoet.com/benefits-of-refactoring/
+> Source - https://methodpoet.com/benefits-of-refactoring/
 
 The disadvantages of using refactored code are that:
 - can promote using poor or sloppy code at first because they know that the code will be refactored by themselves or someone else in the future.
 - the output is still be the same as before you refactored, therefore resources (time & money for example) could be wasted if refactoring creates more work the refactored code is worth.
 - your code could be written in different languages or written in outdated syntax which would make any attempt for a successful refactoring impossible.
->- Source - https://rotate.cc/should-you-refactor-or-rewrite-your-code/
+> Source - https://rotate.cc/should-you-refactor-or-rewrite-your-code/
 
 ### 2. How do these pros and cons apply to refactoring the original VBA script?
 ##### Pros
