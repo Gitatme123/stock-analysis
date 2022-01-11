@@ -41,11 +41,14 @@ The reason we are going to refactor the code is because this process creates a m
 <img width="233" alt="Screen Shot 2022-01-10 at 7 50 36 PM" src="https://user-images.githubusercontent.com/95602006/148867576-f795a8c4-a4a8-4ae7-932d-1de1cba23e21.png">
 
 > 8. The pop-up messages showing the elapsed run time for the script are saved as VBA_Challenge_2017.png and VBA_Challenge_2018.png.
+<img width="600" alt="Screen Shot 2022-01-10 at 7 53 48 PM" src="https://user-images.githubusercontent.com/95602006/148869463-85dbfec8-f030-4875-a5c2-9f712cc5befa.png">
 
 ### Analysis
-#### a. The script does not take into account that there could be more than 12 tickers in the data in 2017 or 2018. Our script does not take that into account and is not able to pull in another ticker if one exists in the list due to us assigning a constant to our arrays.
-#### b. The script ran significantly quicker, around 300% which could provide a huge advantage when dealing with massive amounts of data and a ton of potential tickers.
-#### c. The script did
+
+####a. The script does not take into account that there could be more than 12 tickers in the data in 2017 or 2018. Our script does not take that into account and is not able to pull in another ticker if one exists in the list due to us assigning a constant to our arrays.
+####b. The script ran significantly quicker, it required 300% less time - which could provide an advantage if there is a vast amount of data being analyzed. 
+####c. The script does not create actions that need to be completed within a small time frame and therefore does not add much value by being efficient. I'd imagine Steve would be okay if the script took up to 10 seconds, as long as we added a cool loading graphic that would convince Steve the computer and script are working very hard to return his analysis!
+####d. The script did
 
 
 ## **Summary**
@@ -71,5 +74,5 @@ The disadvantages of using refactored code are that:
 - I had to seek out resources to gain a good enough understanding of the topic to complete the challenge, major learning pro!
 
 ##### The cons of refactoring the original VBA code are that:
-- The spreadsheet is now really messy if you followed all of the instructions from the homework and the challenge.
 - It took a lot of time to refactor and there is no financial benefit to Steve or myself for creating the refactored code.
+- If there is poor documentation then the script is difficult to refactor. The notes from the vba file I downloaded for the challenge were not helpful and did not follow the challenges instructions verbatim.
